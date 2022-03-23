@@ -1,4 +1,110 @@
 .App {
   font-family: sans-serif;
+}
+.container {
+  width: 550px;
+  margin: 20px auto;
+  padding: 47px 30px;
+  /* box-shadow: 0 0 0 0.1rem #c0c0c0; */
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.finish {
   text-align: center;
+}
+.question {
+  margin-bottom: 20px;
+}
+.questions-count {
+  float: right;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: #fff;
+  /* box-shadow: 0 0 0 0.1rem #c0c0c0; */
+}
+.showAnswer {
+  margin-top: 1rem;
+  background-color: #17a2b8;
+  color: #fff;
+  display: block;
+  outline: 0;
+  padding: 7px 35px;
+  border-radius: 4px;
+  border: none;
+}
+.showAnswer:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem #c0c0c0;
+}
+.actual-answer {
+  margin-top: 1rem;
+}
+.actual-answer span {
+  color: #28a745;
+  font-weight: 600;
+}
+/* .input[type="radio"]:focus {
+  box-shadow: none !important;
+} */
+.correctAnswer {
+  /* color: #fff !important; */
+  color: #28a745 !important;
+}
+.correctCaption {
+  margin-left: 50px;
+  border: 1px solid transparent;
+  padding: 0.2rem 0.75rem;
+  font-size: 1rem;
+  cursor: default;
+  border-radius: 0.25rem;
+  color: #28a745 !important;
+  background-color: transparent;
+  border-color: #28a745;
+}
+.correctCaption:hover {
+  color: #fff !important;
+  background-color: #28a745 !important;
+  border-color: #28a745 !important;
+}
+.wrongCaption {
+  margin-left: 50px;
+  border: 1px solid transparent;
+  padding: 0.2rem 0.75rem;
+  font-size: 1rem;
+  cursor: default;
+  border-radius: 0.25rem;
+  color: red !important;
+  background-color: transparent;
+  border-color: #dc3545;
+}
+.wrongCaption:hover {
+  color: #fff !important;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+.wrongAnswer {
+  color: red !important;
+  font-weight: lighter;
+
+  /* color: #fff !important ; */
+}
+.answer-item {
+  cursor: pointer;
+  /* width: 300px; */
+  padding: 10px;
+  list-style-type: none;
+  background-color: #fff;
+  color: black;
+}
+/* .answer-item:focus {
+  box-shadow: 0 0 0 0.1rem #c0c0c0;
+} */
+.btn-prev-next {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.btn:focus {
+  box-shadow: none !important;
 }
